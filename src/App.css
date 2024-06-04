@@ -1,0 +1,69 @@
+.table {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    font-size: 25px;
+    font-family: "Arial Black";
+    text-transform: uppercase;
+}
+.user{
+    display: flex;
+    width: 1000px;
+    font-size: 14px;
+    justify-content: space-between;
+    text-align: center;
+}
+.delete_btn{
+    color: red;
+    background: whitesmoke;
+    background-size: 100px;
+    width: 70px;
+    height: 35px;
+    text-transform: uppercase;
+}
+.modalOne {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modalTwo {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 300px;
+    text-align: center;
+}
+.modal span{
+    background-color: grey;
+    width: 50px;
+    text-transform: uppercase;
+}
+
+.modal_create{
+    color: yellowgreen;
+}
+.modal_delete{
+    color: firebrick;
+}
